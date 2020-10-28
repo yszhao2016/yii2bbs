@@ -14,8 +14,8 @@ return [
     'components' => [
         'view' => [
             'theme' => [
-//                'basePath' => '@app/themes/basic',
-//                'baseUrl' => '@web/themes/basic',
+                'basePath' => '@app/themes/default',
+                'baseUrl' => '@web/themes/default',
                 'pathMap' => [
                     '@app/views' => '@app/themes/default',
                 ],
@@ -45,14 +45,14 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
+
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
         ],
-        */
+
     ],
     'params' => $params,
 ];

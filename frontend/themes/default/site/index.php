@@ -37,33 +37,52 @@ $this->title = 'My Yii Application';
     </div>
 
 
-    <div class="body-content">
-
+    <div class="main">
         <div class="row">
-            <div class="col-lg-8">
-                <div>
-                    <h2>Heading</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur.
-                    </p>
-                    <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
-                </div>
-                <div>
+            <div class="col-lg-8 index-page-left">
+                <div class="feed-list">
+                    <div class="feed-item round-card">
+                        <div class="title">
+                            <div class="word">硬件交流区</div>
+                        </div>
+                        <a href="/section/index">
+                            <img src="https://static.vhieg.com/data/attachment/common/72/common_57_banner.jpg" alt="">
+                        </a>
+                        <div class="desc">
+                            <p>
+                                咪咕快游家庭娱乐终端用户交流的聚集地~
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feed-item round-card">
+                        <div class="title">
+                            <div class="word">硬件交流区</div>
+                        </div>
+                        <a href="">
+                            <img src="https://static.vhieg.com/data/attachment/common/72/common_57_banner.jpg" alt="">
+                        </a>
+                        <div class="desc">
+                            <p>
+                                咪咕快游家庭娱乐终端用户交流的聚集地~
+                            </p>
 
+                        </div>
+                    </div>
                 </div>
+
             </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
+            <div class="col-lg-4 index-page-right">
+                <div class="index-pageright-item">
+                    <img src="" alt="">
+                </div>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <div class="index-pageright-item">
+                    <img src="" alt="">
+                </div>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+                <div class="index-pageright-item">
+                    <img src="" alt="">
+                </div>
             </div>
         </div>
 
